@@ -1,0 +1,24 @@
+Last login: Thu Nov  2 19:13:53 on ttys000
+amosdorborjr@AMsdorbors-MacBook-Pro ~ % mkdir Python
+cd Python
+nano pig_latin.py
+
+mkdir: Python: File exists
+amosdorborjr@AMsdorbors-MacBook-Pro Python % python pig_latin.py
+Enter a sentence: i love football
+Traceback (most recent call last):
+  File "pig_latin.py", line 26, in <module>
+    input_sentence = input("Enter a sentence: ")
+  File "<string>", line 1
+    i love football
+         ^
+SyntaxError: invalid syntax
+amosdorborjr@AMsdorbors-MacBook-Pro Python % 
+
+
+
+
+
+
+
+
